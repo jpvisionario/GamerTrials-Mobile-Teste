@@ -1,0 +1,27 @@
+page-home {
+
+    ion-content{
+        background-image: url('../assets/imgs/bg3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+
+.center { 
+    height: 50px;
+    position: relative;
+    padding-top: 130%;
+}
+.center button{
+    margin: 0;
+    position: absolute;
+    width: 300px;    
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.center a{
+    color: #fff;
+}
+}
